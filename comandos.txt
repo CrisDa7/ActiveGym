@@ -1,0 +1,11 @@
+BACKEND
+cd ~/Descargas/ActiveGym/backend
+npm run dev
+FRONTEND
+cd ~/Descargas/ActiveGym/frontend
+npm run dev
+BASE DE DATOS
+sudo -u postgres psql -d activegym
+\dt                      -- ver tablas
+SELECT * FROM areas;     -- ver datos
+\q                       -- salir
